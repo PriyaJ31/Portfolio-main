@@ -1,0 +1,106 @@
+.banner {
+    padding: 260px 0 100px 0;
+    background: transparent;
+  }
+  
+  /* Removed typing effect + keyframes */
+  
+  /* Static Tagline styling */
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+    color: #4A4A4A;
+  }
+  
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    display: block;
+    color: #4A4A4A;
+  }
+  
+  /* New intro text style */
+  .intro-text {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFD1BA;
+    letter-spacing: 0.8px;
+    display: block;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  .banner p {
+    color: #666;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  
+  .banner button {
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    background-color: #FFD1BA;
+    padding: 14px 28px;
+    border-radius: 18px;
+    transition: 0.3s ease-in-out;
+    border: none;
+  }
+  
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  
+  .banner button:hover {
+    background-color: #E4C1F9;
+    color: #fff;
+  }
+  
+  .banner button:hover svg {
+    margin: 0px 25px;
+  }
+  
+  .typing-name {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #666;
+    font-weight: 700;
+    font-size: 65px;
+    letter-spacing: 0.8px;
+    animation: typingName 2.5s steps(30, end) 1s 1 normal both, blinkName 0.75s step-end infinite;
+    color: #4A4A4A;
+  }
+  
+  @keyframes typingName {
+    from {
+      width: 0;
+    }
+    to {
+      width: 83%;
+    }
+  }
+  
+  @keyframes blinkName {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  

@@ -1,0 +1,1 @@
+export const aboutText = ' A Full-Stack Developer with a passion for building clean, scalable, and user-friendly applications. I enjoy creating seamless web experiences on the frontend and developing efficient, reliable systems on the backend. I’m always excited to learn, take on new challenges, and craft solutions that make a real difference.'

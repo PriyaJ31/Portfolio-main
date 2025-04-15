@@ -1,0 +1,58 @@
+.skill {
+    padding: 40px 0; /* Adjusted padding to be uniform */
+    height: auto; /* Adjust height to fit the content */
+    position: relative;
+    scroll-margin-top: 160px;
+  }
+  
+  .container {
+    padding: 0 20px; /* Added padding for a cleaner container edge */
+    margin: 0 auto; /* Ensures proper centering */
+  }
+  
+  /* Skill Item CSS */
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 24px;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease-in-out;
+    flex: 0 0 auto;
+    margin: 15px; /* Removed excessive margin between items */
+  }
+  
+  .skill-item img {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .skill-text {
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* To make carousel responsive and adjust layout */
+  @media (max-width: 1024px) {
+    .skill-item {
+      margin: 10px; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px; /* Adjust container padding for mobile screens */
+    }
+  }
+  

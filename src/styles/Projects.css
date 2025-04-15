@@ -1,0 +1,85 @@
+.project {
+    padding: 40px 0;
+    background-color: #FDF5F7;
+    position: relative;
+  }
+  
+  .projects-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 24px;
+    padding: 30px 0;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .projects-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .projects-scroll::-webkit-scrollbar-thumb {
+    background: #FFD1BA;
+    border-radius: 10px;
+  }
+  
+  .project-card {
+    min-width: 260px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 24px;
+    padding: 24px 16px;
+    text-align: center;
+    flex: 0 0 auto;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease-in-out;
+    scroll-snap-align: start;
+  }
+  
+  .project-card img {
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h5 {
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 600;
+    margin: 10px 0 5px;
+  }
+  
+  .project-card p {
+    font-size: 14px;
+    color: #5C5470;
+    margin: 0;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-card-link:hover {
+    text-decoration: none;
+  }
+  
+ /* Change active tab pill to yellow */
+.nav-pills .nav-link.active {
+  background-color: #ecb7d6 !important;
+  color: #4A4A4A !important;
+  border: none;
+}
+
+/* Optional: soften the text color on hover for inactive tabs */
+.nav-pills .nav-link {
+  color: #5C5470;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link:hover {
+  color: #4A4A4A;
+}
