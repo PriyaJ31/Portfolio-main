@@ -2,11 +2,18 @@ import smartSurveillance from "../img/smart-surve.jpg";
 import foodSurvey from "../img/food-survey.jpg";
 
 import Portfolio from "../img/project/portfolio.png";
+import AlgorithmVisualizer from "../img/project/algorithm visualizer.avif";
+import WeatherCheck from "../img/project/weatherApp.jpg";
+import Tetris from "../img/project/tetris.jpg";
+import EcommerceApp from "../img/project/ecomm.jpg";
+import TypingSpeedTest from "../img/project/type.jpg";
 
-import projImg1 from "../img/project-img1.png";
-import projImg2 from "../img/project-img2.png";
-import projImg3 from "../img/project-img3.png";
+import BankingSystem from "../img/project/banking.avif";
+import Todo from "../img/project/todo.avif";
+import Sudoku from "../img/project/sudolu.avif";
+import EcommerceWebsite from "../img/project/ecomm2.avif";
 
+// Project and Publication data
 export const publications = [
     { 
         title: "Smart Surveillance System Using Face Detection for Residentials",
@@ -24,18 +31,16 @@ export const publications = [
 
 export const frontend_projects = [
     { title: "Personal Portfolio Website", description: "React.js + HTML + CSS + Bootstrap + node", imgUrl: Portfolio },
-    { title: "Portfolio Website", description: "React.js + Tailwind", imgUrl: projImg2 },
-    { title: "Task Manager API", description: "Node.js + Express", imgUrl: projImg3 },
-    { title: "Full-Stack Blog", description: "MERN Stack", imgUrl: projImg1 },
-    { title: "Landing Page", description: "HTML, CSS, JS", imgUrl: projImg2 },
-    { title: "Backend Auth API", description: "Java + Spring Boot", imgUrl: projImg3 },
+    { title: "Algorithm Visualizer", description: "React.js + JS + DSA", imgUrl: AlgorithmVisualizer },
+    { title: "Weather Check", description: "React.js + HTML + CSS", imgUrl: WeatherCheck },
+    { title: "Tetris Game", description: "HTML + CSS + JS", imgUrl: Tetris },
+    { title: "Typing Speed Test", description: "React.JS + HTML + CSS + JS", imgUrl: TypingSpeedTest },
+    { title: "Ecommerce Website", description: "React.js + JS + HRML + CSS", imgUrl: EcommerceApp },
   ];
 
   export const backend_projects = [
-    { title: "Business Startup", description: "Design & Development", imgUrl: projImg1 },
-    { title: "Portfolio Website", description: "React.js + Tailwind", imgUrl: projImg2 },
-    { title: "Task Manager API", description: "Node.js + Express", imgUrl: projImg3 },
-    { title: "Full-Stack Blog", description: "MERN Stack", imgUrl: projImg1 },
-    { title: "Landing Page", description: "HTML, CSS, JS", imgUrl: projImg2 },
-    { title: "Backend Auth API", description: "Java + Spring Boot", imgUrl: projImg3 },
+    { title: "Banking System", description: "Java + Spring boot +MySQL", imgUrl: BankingSystem },
+    { title: "To Do List", description: "Java + Spring boot + HTML", imgUrl: Todo },
+    { title: "Sudoku", description: "CPP", imgUrl: Sudoku },
+    { title: "Ecommerce website", description: "Python + Django", imgUrl: EcommerceWebsite },
   ];

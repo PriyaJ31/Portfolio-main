@@ -44,7 +44,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <div className="projects-scroll">
                         {/* Example API projects */}
-                        {backend_projects.slice(0, 3).map((project, index) => (
+                        {backend_projects.map((project, index) => (
                           <div key={index} className="project-card">
                             <img src={project.imgUrl} alt={project.title} />
                             <h5>{project.title}</h5>

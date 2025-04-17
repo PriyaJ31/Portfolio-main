@@ -24,7 +24,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
 
-.skill-bx, .project, .contact, .newsletter-bx {
+.skill-bx, .project, .contact, .newsletter-bx, .education-bx {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 24px;
   padding: 60px 50px;
