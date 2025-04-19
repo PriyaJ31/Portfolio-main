@@ -35,7 +35,7 @@ export const frontend_projects = [
     { title: "Weather Check", description: "React.js + HTML + CSS", imgUrl: WeatherCheck },
     { title: "Tetris Game", description: "HTML + CSS + JS", imgUrl: Tetris },
     { title: "Typing Speed Test", description: "React.JS + HTML + CSS + JS", imgUrl: TypingSpeedTest },
-    { title: "Ecommerce Website", description: "React.js + JS + HRML + CSS", imgUrl: EcommerceApp },
+    { title: "Ecommerce Website", description: "React.js + JS + HTML + CSS", imgUrl: EcommerceApp },
   ];
 
   export const backend_projects = [
